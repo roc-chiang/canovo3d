@@ -1,0 +1,14 @@
+# Docker 相关文件
+Dockerfile
+.dockerignore
+
+# 上传文件目录
+uploads/
+*.glb
+*.jpg
+*.jpeg
+*.png
+
+# 环境变量
+.env.local
+.env.production
