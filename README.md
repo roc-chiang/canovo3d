@@ -207,6 +207,7 @@ canovo3d/
 
 - **员工访问码**: `Canovo2025`
 - **管理员密码**: `sculptify2025` (可在环境变量中修改)
+**后台：**sculptify-admin
 
 ## 注意事项
 
