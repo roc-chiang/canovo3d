@@ -48,4 +48,5 @@ EXPOSE 3000
 ENV PORT 3000
 ENV HOSTNAME "0.0.0.0"
 
-CMD ["node", "server.js"]
+# 使用 shell 形式的 CMD，在启动时创建目录
+CMD mkdir -p /app/uploads/photos /app/uploads/models && node server.js
