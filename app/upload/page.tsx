@@ -4,6 +4,15 @@ import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { Submission } from '@/lib/types';
 
+// 声明 model-viewer 自定义元素类型
+declare global {
+    namespace JSX {
+        interface IntrinsicElements {
+            'model-viewer': any;
+        }
+    }
+}
+
 export default function UploadPage() {
     const router = useRouter();
     const [employeeName, setEmployeeName] = useState('');
